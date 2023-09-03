@@ -71,6 +71,16 @@
 		"command": "workbench.action.focusRightGroup",
 		"when": "editorTextFocus && neovim.mode != insert"
 	},
+	{
+		"key": "alt+h",
+		"command": "workbench.action.increaseViewSize",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+l",
+		"command": "workbench.action.decreaseViewSize",
+		"when": "editorTextFocus"
+	},
 	// terminal
 	{
 		"key": "ctrl+h",
@@ -103,8 +113,33 @@
 		"when": "terminalFocus"
 	},
 	{
+		"key": "ctrl+d",
+		"command": "workbench.action.terminal.clear",
+		"when": "terminalFocus"
+	},
+	{
 		"key": "ctrl+shift+d",
 		"command": "workbench.action.terminal.kill",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "alt+j",
+		"command": "workbench.action.terminal.resizePaneDown",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "alt+k",
+		"command": "workbench.action.terminal.resizePaneUp",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "alt+h",
+		"command": "workbench.action.terminal.resizePaneLeft",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "alt+l",
+		"command": "workbench.action.terminal.resizePaneRight",
 		"when": "terminalFocus"
 	},
 	// file tree

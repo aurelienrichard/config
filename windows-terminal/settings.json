@@ -10,12 +10,81 @@
 			"keys": "ctrl+c"
 		},
 		{
+			"command": {
+				"action": "splitPane",
+				"split": "right"
+			},
+			"keys": "ctrl+s"
+		},
+		{
+			"command": {
+				"action": "moveFocus",
+				"direction": "down"
+			},
+			"keys": "ctrl+j"
+		},
+		{
 			"command": "paste",
 			"keys": "ctrl+v"
 		},
 		{
+			"command": {
+				"action": "resizePane",
+				"direction": "left"
+			},
+			"keys": "alt+h"
+		},
+		{
 			"command": "find",
 			"keys": "ctrl+shift+f"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+shift+plus"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+shift+minus"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+down"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+left"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+right"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+up"
+		},
+		{
+			"command": "unbound",
+			"keys": "ctrl+shift+w"
+		},
+		{
+			"command": "unbound",
+			"keys": "ctrl+shift+t"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+shift+left"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+shift+right"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+shift+up"
+		},
+		{
+			"command": "unbound",
+			"keys": "alt+shift+down"
 		},
 		{
 			"command": {
@@ -24,6 +93,78 @@
 				"splitMode": "duplicate"
 			},
 			"keys": "alt+shift+d"
+		},
+		{
+			"command": {
+				"action": "splitPane",
+				"split": "down"
+			},
+			"keys": "ctrl+shift+s"
+		},
+		{
+			"command": {
+				"action": "newTab"
+			},
+			"keys": "ctrl+n"
+		},
+		{
+			"command": {
+				"action": "newWindow"
+			},
+			"keys": "ctrl+shift+n"
+		},
+		{
+			"command": {
+				"action": "moveFocus",
+				"direction": "left"
+			},
+			"keys": "ctrl+h"
+		},
+		{
+			"command": {
+				"action": "moveFocus",
+				"direction": "right"
+			},
+			"keys": "ctrl+l"
+		},
+		{
+			"command": {
+				"action": "moveFocus",
+				"direction": "up"
+			},
+			"keys": "ctrl+k"
+		},
+		{
+			"command": {
+				"action": "resizePane",
+				"direction": "right"
+			},
+			"keys": "alt+l"
+		},
+		{
+			"command": "closePane",
+			"keys": "ctrl+shift+d"
+		},
+		{
+			"command": {
+				"action": "resizePane",
+				"direction": "up"
+			},
+			"keys": "alt+k"
+		},
+		{
+			"command": {
+				"action": "resizePane",
+				"direction": "down"
+			},
+			"keys": "alt+j"
+		},
+		{
+			"command": {
+				"action": "clearBuffer",
+				"clear": "all"
+			},
+			"keys": "ctrl+d"
 		}
 	],
 	"alwaysShowNotificationIcon": false,
