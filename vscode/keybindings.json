@@ -114,7 +114,12 @@
 	},
 	{
 		"key": "ctrl+d",
-		"command": "workbench.action.terminal.clear",
+		"command": "workbench.action.terminal.scrollDown",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+u",
+		"command": "workbench.action.terminal.scrollUp",
 		"when": "terminalFocus"
 	},
 	{

@@ -7,7 +7,7 @@
 				"action": "copy",
 				"singleLine": false
 			},
-			"keys": "ctrl+c"
+			"keys": "ctrl+shift+c"
 		},
 		{
 			"command": {
@@ -24,8 +24,7 @@
 			"keys": "ctrl+j"
 		},
 		{
-			"command": "paste",
-			"keys": "ctrl+v"
+			"command": "paste"
 		},
 		{
 			"command": {
@@ -87,6 +86,26 @@
 			"keys": "alt+shift+down"
 		},
 		{
+			"command": "unbound",
+			"keys": "ctrl+shift+down"
+		},
+		{
+			"command": "unbound",
+			"keys": "ctrl+shift+up"
+		},
+		{
+			"command": "unbound",
+			"keys": "ctrl+]"
+		},
+		{
+			"command": "unbound",
+			"keys": "ctrl+v"
+		},
+		{
+			"command": "unbound",
+			"keys": "shift+insert"
+		},
+		{
 			"command": {
 				"action": "splitPane",
 				"split": "auto",
@@ -112,6 +131,12 @@
 				"action": "newWindow"
 			},
 			"keys": "ctrl+shift+n"
+		},
+		{
+			"command": {
+				"action": "scrollUp"
+			},
+			"keys": "ctrl+u"
 		},
 		{
 			"command": {
@@ -163,6 +188,11 @@
 			"command": {
 				"action": "clearBuffer",
 				"clear": "all"
+			}
+		},
+		{
+			"command": {
+				"action": "scrollDown"
 			},
 			"keys": "ctrl+d"
 		}
@@ -191,6 +221,8 @@
 				"size": 11.0
 			},
 			"opacity": 40,
+			"padding": "8",
+			"scrollbarState": "visible",
 			"useAcrylic": true
 		},
 		"list": [
