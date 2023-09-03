@@ -1,0 +1,87 @@
+{
+	"workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+	"workbench.colorCustomizations": {
+		"[Monokai Pro (Filter Spectrum)]": {
+			"editorCursor.foreground": "#fce566",
+			"terminalCursor.foreground": "#fce566",
+			"editorRuler.foreground": "#171717",
+			"terminal.ansiBlue": "#363537"
+		}
+	},
+	"workbench.settings.enableNaturalLanguageSearch": false,
+	"workbench.enableExperiments": false,
+	"workbench.cloudChanges.autoResume": "off",
+	"workbench.cloudChanges.continueOn": "off",
+	"editor.fontFamily": "'JetBrainsMonoNL Nerd Font', monospace",
+	"editor.fontSize": 14,
+	"editor.fontWeight": "normal",
+	"editor.lineHeight": 0,
+	"editor.letterSpacing": 0,
+	"editor.fontLigatures": false,
+	"editor.rulers": [100],
+	"editor.bracketPairColorization.enabled": true,
+	"git.autofetch": true,
+	"window.customMenuBarAltFocus": false,
+	"window.zoomLevel": -0.25,
+	"editor.wordWrap": "wordWrapColumn",
+	"files.exclude": {
+		"**/node_modules": true
+	},
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[dotenv]": {
+		"editor.wordWrap": "off",
+		"editor.rulers": []
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"svelte.enable-ts-plugin": true,
+	"telemetry.telemetryLevel": "off",
+	"terminal.integrated.fontFamily": "'JetBrainsMonoNL Nerd Font', monospace",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.letterSpacing": 0,
+	"terminal.integrated.tabs.enabled": true,
+	"terminal.integrated.defaultProfile.windows": "Debian (WSL)",
+	"editor.detectIndentation": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.minimap.enabled": false,
+	"breadcrumbs.filePath": "off",
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.formatOnSave": true,
+	"workbench.editor.labelFormat": "short",
+	"editor.lineNumbers": "relative",
+	"workbench.panel.defaultLocation": "right",
+	"breadcrumbs.enabled": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"editor.insertSpaces": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.wordWrapColumn": 100,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+	"vscode-neovim.useWSL": true,
+	"vscode-neovim.neovimInitVimPaths.linux": "/home/aurelienrichard/.config/nvim/init.vim",
+	"prettier.arrowParens": "always",
+	"prettier.printWidth": 100,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "none",
+	"prettier.useTabs": true,
+	"html.format.wrapLineLength": 100,
+	"explorer.compactFolders": false,
+	"workbench.editor.enablePreview": false,
+	"eslint.validate": ["javascript", "typescript", "svelte"],
+	"eslint.probe": ["javascript", "typescript", "svelte"],
+	"git.enableCommitSigning": true,
+	"workbench.startupEditor": "none",
+	"playwright.reuseBrowser": true,
+	"workbench.colorTheme": "Monokai Pro (Filter Spectrum)"
+}

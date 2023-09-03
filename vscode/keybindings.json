@@ -1,0 +1,126 @@
+[
+	// editor
+	{
+		"key": "shift+j",
+		"command": "workbench.action.previousEditorInGroup",
+		"when": "editorTextFocus && neovim.mode != insert"
+	},
+	{
+		"key": "shift+k",
+		"command": "workbench.action.nextEditorInGroup",
+		"when": "editorTextFocus && neovim.mode != insert"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "vscode-neovim.send",
+		"when": "editorTextFocus && neovim.node != insert",
+		"args": "\"+y"
+	},
+	{
+		"key": "ctrl+shift+v",
+		"command": "vscode-neovim.send",
+		"when": "editorTextFocus && neovim.mode != insert",
+		"args": "\"+p"
+	},
+	{
+		"key": "alt+j",
+		"command": "vscode-neovim.send",
+		"when": "editorTextFocus && neovim.mode != insert",
+		"args": ":m +1<CR>"
+	},
+	{
+		"key": "alt+k",
+		"command": "vscode-neovim.send",
+		"when": "editorTextFocus && neovim.mode != insert",
+		"args": ":m -2<CR>"
+	},
+	//panes
+	{
+		"key": "ctrl+f",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+s",
+		"command": "vscode-neovim.send",
+		"when": "editorTextFocus && neovim.mode != insert",
+		"args": ":vsplit<CR>"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "vscode-neovim.send",
+		"when": "editorTextFocus && neovim.mode != insert",
+		"args": ":split<CR>"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "workbench.action.focusAboveGroup",
+		"when": "editorTextFocus && neovim.mode != insert"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.focusBelowGroup",
+		"when": "editorTextFocus && neovim.mode != insert"
+	},
+	{
+		"key": "ctrl+h",
+		"command": "workbench.action.focusLeftGroup",
+		"when": "editorTextFocus && neovim.mode != insert"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "workbench.action.focusRightGroup",
+		"when": "editorTextFocus && neovim.mode != insert"
+	},
+	// terminal
+	{
+		"key": "ctrl+h",
+		"command": "workbench.action.terminal.focusPreviousPane",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "workbench.action.terminal.focusNextPane",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "workbench.action.terminal.focusPrevious",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.terminal.focusNext",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+s",
+		"command": "workbench.action.terminal.split",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "workbench.action.terminal.new",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "workbench.action.terminal.kill",
+		"when": "terminalFocus"
+	},
+	// file tree
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile",
+		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+shift+n",
+		"command": "explorer.newFolder",
+		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "deleteFile",
+		"when": "explorerViewletFocus"
+	}
+]
