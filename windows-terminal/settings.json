@@ -4,10 +4,10 @@
 	"actions": [
 		{
 			"command": {
-				"action": "copy",
-				"singleLine": false
+				"action": "moveFocus",
+				"direction": "down"
 			},
-			"keys": "ctrl+shift+c"
+			"keys": "ctrl+j"
 		},
 		{
 			"command": {
@@ -18,13 +18,17 @@
 		},
 		{
 			"command": {
-				"action": "moveFocus",
-				"direction": "down"
+				"action": "copy",
+				"singleLine": false
 			},
-			"keys": "ctrl+j"
+			"keys": "ctrl+shift+c"
 		},
 		{
 			"command": "paste"
+		},
+		{
+			"command": "find",
+			"keys": "ctrl+shift+f"
 		},
 		{
 			"command": {
@@ -34,8 +38,12 @@
 			"keys": "alt+h"
 		},
 		{
-			"command": "find",
-			"keys": "ctrl+shift+f"
+			"command": {
+				"action": "splitPane",
+				"split": "auto",
+				"splitMode": "duplicate"
+			},
+			"keys": "alt+shift+d"
 		},
 		{
 			"command": "unbound",
@@ -108,14 +116,6 @@
 		{
 			"command": {
 				"action": "splitPane",
-				"split": "auto",
-				"splitMode": "duplicate"
-			},
-			"keys": "alt+shift+d"
-		},
-		{
-			"command": {
-				"action": "splitPane",
 				"split": "down"
 			},
 			"keys": "ctrl+shift+s"
@@ -128,15 +128,15 @@
 		},
 		{
 			"command": {
-				"action": "newWindow"
-			},
-			"keys": "ctrl+shift+n"
-		},
-		{
-			"command": {
 				"action": "scrollUp"
 			},
 			"keys": "ctrl+u"
+		},
+		{
+			"command": {
+				"action": "newWindow"
+			},
+			"keys": "ctrl+shift+n"
 		},
 		{
 			"command": {
@@ -203,6 +203,7 @@
 	"copyFormatting": "none",
 	"copyOnSelect": false,
 	"defaultProfile": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+	"disableAnimations": false,
 	"initialCols": 150,
 	"initialRows": 40,
 	"newTabMenu": [
@@ -302,24 +303,24 @@
 		{
 			"background": "#363537",
 			"black": "#131313",
-			"blue": "#948AE3",
-			"brightBlack": "#191919",
-			"brightBlue": "#948AE3",
-			"brightCyan": "#5AD4E6",
+			"blue": "#5AD4E6",
+			"brightBlack": "#131313",
+			"brightBlue": "#5AD4E6",
+			"brightCyan": "#FD9353",
 			"brightGreen": "#7BD88F",
-			"brightPurple": "#FD9353",
+			"brightPurple": "#948AE3",
 			"brightRed": "#FC618D",
-			"brightWhite": "#FFFFFF",
+			"brightWhite": "#F7F1FF",
 			"brightYellow": "#FCE566",
 			"cursorColor": "#FCE566",
-			"cyan": "#5AD4E6",
+			"cyan": "#FD9353",
 			"foreground": "#F7F1FF",
 			"green": "#7BD88F",
 			"name": "Monokai Pro Spectrum",
-			"purple": "#FD9353",
+			"purple": "#948AE3",
 			"red": "#FC618D",
-			"selectionBackground": "#F7F1FF",
-			"white": "#FFFFFF",
+			"selectionBackground": "#BAB6C0",
+			"white": "#F7F1FF",
 			"yellow": "#FCE566"
 		},
 		{
