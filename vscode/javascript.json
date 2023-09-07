@@ -1,0 +1,10 @@
+{
+	"Environment Variable": {
+		"prefix": "env",
+		"body": ["process.env.$1", "$2"]
+	},
+	"Arrow Function": {
+		"prefix": "af",
+		"body": ["const $1 = ($2) => {$3}", "$4"]
+	}
+}
