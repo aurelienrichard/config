@@ -1,12 +1,12 @@
 [
 	// editor
 	{
-		"key": "shift+j",
+		"key": "ctrl+j",
 		"command": "workbench.action.previousEditorInGroup",
 		"when": "editorTextFocus && neovim.mode != insert"
 	},
 	{
-		"key": "shift+k",
+		"key": "ctrl+k",
 		"command": "workbench.action.nextEditorInGroup",
 		"when": "editorTextFocus && neovim.mode != insert"
 	},
@@ -50,26 +50,6 @@
 		"command": "vscode-neovim.send",
 		"when": "editorTextFocus && neovim.mode != insert",
 		"args": ":split<CR>"
-	},
-	{
-		"key": "ctrl+k",
-		"command": "workbench.action.focusAboveGroup",
-		"when": "editorTextFocus && neovim.mode != insert"
-	},
-	{
-		"key": "ctrl+j",
-		"command": "workbench.action.focusBelowGroup",
-		"when": "editorTextFocus && neovim.mode != insert"
-	},
-	{
-		"key": "ctrl+h",
-		"command": "workbench.action.focusLeftGroup",
-		"when": "editorTextFocus && neovim.mode != insert"
-	},
-	{
-		"key": "ctrl+l",
-		"command": "workbench.action.focusRightGroup",
-		"when": "editorTextFocus && neovim.mode != insert"
 	},
 	{
 		"key": "alt+h",
