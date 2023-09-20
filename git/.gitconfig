@@ -1,0 +1,14 @@
+[user]
+	email = a.richard.dev@gmail.com
+	name = aurelienrichard
+	signingkey = E6F9A7B5
+[init]
+	defaultBranch = main
+[code]
+	editor = code --wait
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[push]
+	autoSetupRemote = true
