@@ -1,13 +1,5 @@
 {
-	"workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
-	"workbench.colorCustomizations": {
-		"[Monokai Pro (Filter Spectrum)]": {
-			"editorCursor.foreground": "#fce566",
-			"terminalCursor.foreground": "#fce566",
-			"editorRuler.foreground": "#171717",
-			"terminal.ansiBlue": "#363537"
-		}
-	},
+	"workbench.iconTheme": "catppuccin-perfect-mocha",
 	"workbench.settings.enableNaturalLanguageSearch": false,
 	"workbench.enableExperiments": false,
 	"workbench.cloudChanges.autoResume": "off",
@@ -28,14 +20,10 @@
 	},
 	"files.associations": {
 		"*.css": "tailwindcss",
-		".env.local": "dotenv"
+		".env*": "dotenv"
 	},
 	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"[dotenv]": {
-		"editor.wordWrap": "off",
-		"editor.rulers": []
-	},
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
@@ -65,9 +53,8 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-	"vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+	"vscode-neovim.neovimExecutablePaths.linux": "~/nvim.appimage",
 	"vscode-neovim.useWSL": true,
-	"vscode-neovim.neovimInitVimPaths.linux": "/home/aurelienrichard/.config/nvim/init.vim",
 	"prettier.arrowParens": "always",
 	"prettier.printWidth": 100,
 	"prettier.semi": false,
@@ -83,8 +70,13 @@
 	"git.enableCommitSigning": true,
 	"workbench.startupEditor": "none",
 	"playwright.reuseBrowser": true,
-	"workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+	"workbench.colorTheme": "Catppuccin Mocha",
 	"extensions.experimental.affinity": {
 		"asvetliakov.vscode-neovim": 1
-	}
+	},
+	"editor.tokenColorCustomizations": {
+		"textMateRules": []
+	},
+	"dotenv.enableAutocloaking": false,
+	"githubPullRequests.pushBranch": "always"
 }
