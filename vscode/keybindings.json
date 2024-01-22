@@ -11,6 +11,10 @@
 		"when": "editorTextFocus && neovim.mode != insert"
 	},
 	{
+		"key": "ctrl+shift+g",
+		"command": "workbench.panel.chatSidebar"
+	},
+	{
 		"key": "ctrl+shift+c",
 		"command": "vscode-neovim.send",
 		"when": "editorTextFocus && neovim.node != insert",
