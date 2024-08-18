@@ -1,5 +1,6 @@
 {
 	"workbench.iconTheme": "catppuccin-perfect-mocha",
+	"workbench.tree.indent": 16,
 	"workbench.settings.enableNaturalLanguageSearch": false,
 	"workbench.enableExperiments": false,
 	"workbench.cloudChanges.autoResume": "off",
@@ -51,7 +52,7 @@
 	"liveServer.settings.donotShowInfoMsg": true,
 	"editor.wordWrapColumn": 100,
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
+		"source.fixAll.eslint": "explicit"
 	},
 	"vscode-neovim.neovimExecutablePaths.linux": "~/nvim.appimage",
 	"vscode-neovim.useWSL": true,
@@ -75,8 +76,40 @@
 		"asvetliakov.vscode-neovim": 1
 	},
 	"editor.tokenColorCustomizations": {
+		"[*Light*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#000"
+					}
+				}
+			]
+		},
+		"[*Dark*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#fff"
+					}
+				}
+			]
+		},
 		"textMateRules": []
 	},
 	"dotenv.enableAutocloaking": false,
-	"githubPullRequests.pushBranch": "always"
+	"githubPullRequests.pushBranch": "always",
+	"remote.autoForwardPortsSource": "hybrid",
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"[toml]": {
+		"editor.defaultFormatter": "tamasfe.even-better-toml"
+	},
+	"github.copilot.editor.enableAutoCompletions": true,
+	"window.confirmSaveUntitledWorkspace": false
 }

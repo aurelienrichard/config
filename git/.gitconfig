@@ -1,14 +1,16 @@
 [user]
-	email = a.richard.dev@gmail.com
-	name = aurelienrichard
-	signingkey = E6F9A7B5
+        email = 56389380+aurelienrichard@users.noreply.github.com
+        name = aurelienrichard
+        signingkey = 30E1B7D086708792
 [init]
-	defaultBranch = main
+        defaultBranch = main
 [code]
-	editor = code --wait
+        editor = code --wait
 [commit]
-	gpgSign = true
+        gpgsign = true
 [tag]
-	gpgSign = true
+        gpgSign = true
 [push]
-	autoSetupRemote = true
+        autoSetupRemote = true
+[gpg]
+        program = gpg
