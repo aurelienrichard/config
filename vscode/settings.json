@@ -49,7 +49,7 @@
 	"editor.formatOnSave": true,
 	"workbench.editor.labelFormat": "short",
 	"editor.lineNumbers": "relative",
-	"workbench.panel.defaultLocation": "right",
+	"workbench.panel.defaultLocation": "bottom",
 	"breadcrumbs.enabled": false,
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"editor.insertSpaces": false,
