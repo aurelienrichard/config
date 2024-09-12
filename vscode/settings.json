@@ -3,8 +3,11 @@
 	"window.menuBarVisibility": "compact",
 	"window.titleBarStyle": "custom",
 	"window.zoomLevel": 0,
+	"window.title": "${rootNameShort}${separator}${appName}",
+	"window.commandCenter": false,
 	"workbench.iconTheme": "catppuccin-perfect-mocha",
 	"workbench.tree.indent": 20,
+	"workbench.tree.renderIndentGuides": "none",
 	"workbench.settings.enableNaturalLanguageSearch": false,
 	"workbench.enableExperiments": false,
 	"workbench.statusBar.visible": false,
@@ -12,8 +15,11 @@
 	"workbench.sideBar.location": "right",
 	"workbench.cloudChanges.autoResume": "off",
 	"workbench.cloudChanges.continueOn": "off",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
 	"editor.fontFamily": "'JetBrainsMonoNL Nerd Font', monospace",
 	"editor.fontSize": 14,
+	"editor.cursorBlinking": "solid",
 	"editor.overviewRulerBorder": false,
 	"editor.hideCursorInOverviewRuler": true,
 	"editor.fontWeight": "normal",
@@ -22,6 +28,7 @@
 	"editor.rulers": [100],
 	"editor.bracketPairColorization.enabled": true,
 	"editor.snippetSuggestions": "top",
+	"editor.guides.indentation": false,
 	"git.autofetch": true,
 	"window.customMenuBarAltFocus": false,
 	"editor.wordWrap": "wordWrapColumn",
@@ -119,5 +126,6 @@
 	"[toml]": {
 		"editor.defaultFormatter": "tamasfe.even-better-toml"
 	},
-	"github.copilot.editor.enableAutoCompletions": true
+	"github.copilot.editor.enableAutoCompletions": true,
+	"workbench.layoutControl.enabled": false
 }
