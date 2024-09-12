@@ -1,4 +1,8 @@
 {
+	"window.confirmSaveUntitledWorkspace": false,
+	"window.menuBarVisibility": "compact",
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": 0,
 	"workbench.iconTheme": "catppuccin-perfect-mocha",
 	"workbench.tree.indent": 20,
 	"workbench.settings.enableNaturalLanguageSearch": false,
@@ -11,6 +15,7 @@
 	"editor.fontFamily": "'JetBrainsMonoNL Nerd Font', monospace",
 	"editor.fontSize": 14,
 	"editor.overviewRulerBorder": false,
+	"editor.hideCursorInOverviewRuler": true,
 	"editor.fontWeight": "normal",
 	"editor.letterSpacing": 0,
 	"editor.fontLigatures": false,
@@ -114,8 +119,5 @@
 	"[toml]": {
 		"editor.defaultFormatter": "tamasfe.even-better-toml"
 	},
-	"github.copilot.editor.enableAutoCompletions": true,
-	"window.confirmSaveUntitledWorkspace": false,
-	"window.menuBarVisibility": "compact",
-	"window.titleBarStyle": "custom"
+	"github.copilot.editor.enableAutoCompletions": true
 }
