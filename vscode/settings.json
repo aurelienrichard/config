@@ -1,18 +1,22 @@
 {
 	"workbench.iconTheme": "catppuccin-perfect-mocha",
-	"workbench.tree.indent": 16,
+	"workbench.tree.indent": 20,
 	"workbench.settings.enableNaturalLanguageSearch": false,
 	"workbench.enableExperiments": false,
+	"workbench.statusBar.visible": false,
+	"workbench.editor.showTabs": "multiple",
+	"workbench.sideBar.location": "right",
 	"workbench.cloudChanges.autoResume": "off",
 	"workbench.cloudChanges.continueOn": "off",
 	"editor.fontFamily": "'JetBrainsMonoNL Nerd Font', monospace",
 	"editor.fontSize": 14,
+	"editor.overviewRulerBorder": false,
 	"editor.fontWeight": "normal",
-	"editor.lineHeight": 0,
 	"editor.letterSpacing": 0,
 	"editor.fontLigatures": false,
 	"editor.rulers": [100],
 	"editor.bracketPairColorization.enabled": true,
+	"editor.snippetSuggestions": "top",
 	"git.autofetch": true,
 	"window.customMenuBarAltFocus": false,
 	"editor.wordWrap": "wordWrapColumn",
@@ -111,5 +115,7 @@
 		"editor.defaultFormatter": "tamasfe.even-better-toml"
 	},
 	"github.copilot.editor.enableAutoCompletions": true,
-	"window.confirmSaveUntitledWorkspace": false
+	"window.confirmSaveUntitledWorkspace": false,
+	"window.menuBarVisibility": "compact",
+	"window.titleBarStyle": "custom"
 }
