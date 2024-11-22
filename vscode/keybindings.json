@@ -44,6 +44,10 @@
 		"command": "workbench.action.toggleSidebarVisibility"
 	},
 	{
+		"key": "ctrl+i",
+		"command": "workbench.action.toggleAuxiliaryBar"
+	},
+	{
 		"key": "ctrl+s",
 		"command": "vscode-neovim.send",
 		"when": "editorTextFocus && neovim.mode != insert",
