@@ -1,0 +1,6 @@
+{
+	"TS Script Block": {
+		"prefix": "script:ts",
+		"body": ["<script lang=\"ts\">", "$0", "</script>"]
+	}
+}
