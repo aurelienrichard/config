@@ -27,18 +27,18 @@
 	"workbench.cloudChanges.continueOn": "off",
 	"workbench.editor.showTabs": "multiple",
 	"workbench.enableExperiments": false,
-	"workbench.iconTheme": "catppuccin-perfect-mocha",
 	"workbench.settings.enableNaturalLanguageSearch": false,
 	"workbench.sideBar.location": "right",
 	"workbench.statusBar.visible": false,
-	"workbench.tree.indent": 20,
-	"workbench.tree.renderIndentGuides": "none",
+	"workbench.tree.indent": 16,
+	"workbench.tree.renderIndentGuides": "onHover",
 	"files.exclude": {
 		"**/node_modules": true
 	},
 	"files.associations": {
 		"*.css": "tailwindcss",
-		".env*": "dotenv"
+		".env*": "dotenv",
+		"wrangler.json": "jsonc"
 	},
 	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -89,10 +89,21 @@
 	"git.enableCommitSigning": true,
 	"workbench.startupEditor": "none",
 	"playwright.reuseBrowser": true,
-	"workbench.colorTheme": "Catppuccin Mocha",
 	"extensions.experimental.affinity": {
 		"asvetliakov.vscode-neovim": 1
 	},
+	"dotenv.enableAutocloaking": false,
+	"githubPullRequests.pushBranch": "always",
+	"remote.autoForwardPortsSource": "hybrid",
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"workbench.layoutControl.enabled": false,
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.iconTheme": "catppuccin-mocha",
 	"editor.tokenColorCustomizations": {
 		"[*Light*]": {
 			"textMateRules": [
@@ -115,18 +126,5 @@
 			]
 		},
 		"textMateRules": []
-	},
-	"dotenv.enableAutocloaking": false,
-	"githubPullRequests.pushBranch": "always",
-	"remote.autoForwardPortsSource": "hybrid",
-	"github.copilot.enable": {
-		"*": true,
-		"plaintext": false,
-		"markdown": false,
-		"scminput": false
-	},
-	"[toml]": {
-		"editor.defaultFormatter": "tamasfe.even-better-toml"
-	},
-	"workbench.layoutControl.enabled": false
+	}
 }
