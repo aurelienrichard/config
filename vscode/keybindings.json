@@ -1,6 +1,14 @@
 [
 	// editor
 	{
+		"key": "shift+5",
+		"command": "runCommands",
+		"when": "editorTextFocus && neovim.mode != insert",
+		"args": {
+			"commands": ["editor.emmet.action.matchTag", "editor.action.jumpToBracket"]
+		}
+	},
+	{
 		"key": "ctrl+j",
 		"command": "workbench.action.previousEditorInGroup",
 		"when": "editorTextFocus && neovim.mode != insert"
@@ -150,5 +158,10 @@
 		"key": "ctrl+shift+d",
 		"command": "deleteFile",
 		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+shift+v",
+		"command": "-markdown.showPreview",
+		"when": "!notebookEditorFocused && editorLangId == 'markdown'"
 	}
 ]
