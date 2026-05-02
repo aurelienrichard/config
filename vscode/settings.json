@@ -1,120 +1,37 @@
 {
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"breadcrumbs.enabled": false,
+	"breadcrumbs.filePath": "off",
+	"chat.viewSessions.orientation": "stacked",
+	"dotenv.enableAutocloaking": false,
+	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.bracketPairColorization.enabled": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
 	"editor.cursorBlinking": "solid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": false,
 	"editor.fontFamily": "'JetBrainsMonoNL Nerd Font', monospace",
 	"editor.fontLigatures": false,
 	"editor.fontSize": 14,
 	"editor.fontWeight": "normal",
+	"editor.formatOnSave": true,
 	"editor.guides.bracketPairs": "active",
 	"editor.guides.indentation": false,
 	"editor.hideCursorInOverviewRuler": true,
+	"editor.insertSpaces": false,
 	"editor.letterSpacing": 0,
+	"editor.lineNumbers": "relative",
+	"editor.minimap.enabled": false,
 	"editor.overviewRulerBorder": false,
 	"editor.rulers": [100],
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",
 	"editor.snippetSuggestions": "top",
-	"editor.wordWrap": "wordWrapColumn",
-	"git.autofetch": true,
-	"window.commandCenter": false,
-	"window.confirmSaveUntitledWorkspace": false,
-	"window.customMenuBarAltFocus": false,
-	"window.menuBarVisibility": "compact",
-	"window.title": "${rootNameShort}${separator}${appName}",
-	"window.titleBarStyle": "custom",
-	"window.zoomLevel": 0,
-	"workbench.cloudChanges.autoResume": "off",
-	"workbench.cloudChanges.continueOn": "off",
-	"workbench.editor.showTabs": "multiple",
-	"workbench.enableExperiments": false,
-	"workbench.settings.enableNaturalLanguageSearch": false,
-	"workbench.sideBar.location": "right",
-	"workbench.statusBar.visible": false,
-	"workbench.tree.indent": 16,
-	"workbench.tree.renderIndentGuides": "onHover",
-	"files.exclude": {
-		"**/node_modules": true
-	},
-	"files.associations": {
-		"*.css": "tailwindcss",
-		".env*": "dotenv",
-		"wrangler.json": "jsonc"
-	},
-	"editor.acceptSuggestionOnCommitCharacter": false,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"[svelte]": {
-		"editor.defaultFormatter": "svelte.svelte-vscode"
-	},
-	"svelte.enable-ts-plugin": true,
-	"telemetry.telemetryLevel": "off",
-	"terminal.integrated.fontFamily": "'JetBrainsMonoNL Nerd Font', monospace",
-	"terminal.integrated.fontSize": 14,
-	"terminal.integrated.letterSpacing": 0,
-	"terminal.integrated.tabs.enabled": true,
-	"terminal.integrated.defaultProfile.windows": "Debian (WSL)",
-	"editor.detectIndentation": false,
-	"explorer.confirmDelete": false,
-	"explorer.confirmDragAndDrop": false,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"editor.minimap.enabled": false,
-	"breadcrumbs.filePath": "off",
-	"security.workspace.trust.untrustedFiles": "open",
-	"editor.formatOnSave": true,
-	"workbench.editor.labelFormat": "short",
-	"editor.lineNumbers": "relative",
-	"workbench.panel.defaultLocation": "bottom",
-	"breadcrumbs.enabled": false,
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"editor.insertSpaces": false,
-	"liveServer.settings.donotShowInfoMsg": true,
-	"editor.wordWrapColumn": 100,
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": "explicit"
-	},
-	"vscode-neovim.neovimExecutablePaths.linux": "~/nvim.appimage",
-	"vscode-neovim.useWSL": true,
-	"prettier.arrowParens": "always",
-	"prettier.printWidth": 100,
-	"prettier.semi": false,
-	"prettier.singleQuote": true,
-	"prettier.tabWidth": 4,
-	"prettier.trailingComma": "none",
-	"prettier.useTabs": true,
-	"html.format.wrapLineLength": 100,
-	"explorer.compactFolders": false,
-	"explorer.sortOrder": "filesFirst",
-	"workbench.editor.enablePreview": false,
-	"eslint.validate": ["javascript", "typescript", "svelte"],
-	"eslint.probe": ["javascript", "typescript", "svelte"],
-	"git.enableCommitSigning": true,
-	"workbench.startupEditor": "none",
-	"playwright.reuseBrowser": true,
-	"extensions.experimental.affinity": {
-		"asvetliakov.vscode-neovim": 1
-	},
-	"dotenv.enableAutocloaking": false,
-	"githubPullRequests.pushBranch": "always",
-	"remote.autoForwardPortsSource": "hybrid",
-	"github.copilot.enable": {
-		"*": true,
-		"plaintext": false,
-		"markdown": false,
-		"scminput": false
-	},
-	"workbench.layoutControl.enabled": false,
-	"workbench.colorTheme": "Catppuccin Mocha",
-	"workbench.iconTheme": "catppuccin-mocha",
 	"editor.tokenColorCustomizations": {
-		"[*Light*]": {
-			"textMateRules": [
-				{
-					"scope": "ref.matchtext",
-					"settings": {
-						"foreground": "#000"
-					}
-				}
-			]
-		},
 		"[*Dark*]": {
 			"textMateRules": [
 				{
@@ -125,6 +42,99 @@
 				}
 			]
 		},
+		"[*Light*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#000"
+					}
+				}
+			]
+		},
 		"textMateRules": []
-	}
+	},
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 100,
+	"eslint.probe": ["javascript", "typescript", "svelte"],
+	"eslint.validate": ["javascript", "typescript", "svelte"],
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.sortOrder": "filesFirst",
+	"extensions.experimental.affinity": {
+		"asvetliakov.vscode-neovim": 1
+	},
+	"files.associations": {
+		".env*": "dotenv",
+		"*.css": "tailwindcss",
+		"wrangler.json": "jsonc"
+	},
+	"files.exclude": {
+		"**/node_modules": true
+	},
+	"git.addAICoAuthor": "off",
+	"git.autofetch": true,
+	"git.enableCommitSigning": true,
+	"github.copilot.enable": {
+		"*": true,
+		"markdown": false,
+		"plaintext": false,
+		"scminput": false
+	},
+	"github.copilot.nextEditSuggestions.enabled": true,
+	"githubPullRequests.pushBranch": "always",
+	"html.format.wrapLineLength": 100,
+	"js/ts.updateImportsOnFileMove.enabled": "always",
+	"json.schemaDownload.trustedDomains": {
+		"https://developer.microsoft.com/json-schemas/": true,
+		"https://inlang.com/schema/inlang-message-format": true,
+		"https://json-schema.org/": true,
+		"https://json.schemastore.org/": true,
+		"https://raw.githubusercontent.com/devcontainers/spec/": true,
+		"https://raw.githubusercontent.com/microsoft/vscode/": true,
+		"https://schemastore.azurewebsites.net/": true,
+		"https://www.schemastore.org/": true
+	},
+	"liveServer.settings.donotShowInfoMsg": true,
+	"playwright.reuseBrowser": true,
+	"prettier.arrowParens": "always",
+	"prettier.printWidth": 100,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "none",
+	"prettier.useTabs": true,
+	"remote.autoForwardPortsSource": "hybrid",
+	"security.workspace.trust.untrustedFiles": "open",
+	"svelte.enable-ts-plugin": true,
+	"telemetry.telemetryLevel": "off",
+	"terminal.integrated.defaultProfile.windows": "Debian (WSL)",
+	"terminal.integrated.fontFamily": "'JetBrainsMonoNL Nerd Font', monospace",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.letterSpacing": 0,
+	"terminal.integrated.tabs.enabled": true,
+	"vscode-neovim.neovimExecutablePaths.linux": "~/nvim.appimage",
+	"vscode-neovim.useWSL": true,
+	"window.commandCenter": false,
+	"window.confirmSaveUntitledWorkspace": false,
+	"window.customMenuBarAltFocus": false,
+	"window.menuBarVisibility": "compact",
+	"window.title": "${rootNameShort}${separator}${appName}",
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": 0,
+	"workbench.cloudChanges.autoResume": "off",
+	"workbench.cloudChanges.continueOn": "off",
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.labelFormat": "short",
+	"workbench.editor.showTabs": "multiple",
+	"workbench.enableExperiments": false,
+	"workbench.layoutControl.enabled": false,
+	"workbench.panel.defaultLocation": "bottom",
+	"workbench.settings.enableNaturalLanguageSearch": false,
+	"workbench.sideBar.location": "right",
+	"workbench.startupEditor": "none",
+	"workbench.statusBar.visible": false,
+	"workbench.tree.indent": 16,
+	"workbench.tree.renderIndentGuides": "onHover"
 }
